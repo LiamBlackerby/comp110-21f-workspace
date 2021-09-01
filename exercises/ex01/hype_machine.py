@@ -1,5 +1,8 @@
-# TODO: Write docstring here
+"""EX01 - Input and Variables Pt 1."""
 
-# TODO: Initialize __author__ variable here
+__author__ = "730340429"
 
-# TODO: Implement your program logic here
+name: str = input("What is your name? ")
+print(name + " sure is an awesome name.")
+print("You seem like a cool dude " + (name))
+print("Guess what " + name + ", you are the GOAT!")
